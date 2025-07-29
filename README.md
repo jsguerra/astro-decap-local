@@ -1,10 +1,11 @@
-# Astro Starter Kit: Minimal
+# Astro with Decap CMS Local Setup
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is a minimal Astro install running Netlify's Decap CMS with a local configuration. This means you can test this locally to understand how it works.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## How to run
+Open a terminal and type `npx decap-server` this is required in order to avoid the required login to the CMS locally.
+
+Then open a separate terminal and run you node app separately.
 
 ## 🚀 Project Structure
 
@@ -19,11 +20,6 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
@@ -37,7 +33,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
